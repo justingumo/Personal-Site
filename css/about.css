@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+background: rgb(157,223,211);
+background: linear-gradient(180deg, rgba(157,223,211,1) 30%, rgba(219,246,233,1) 100%);
+}
+
+.top-container {
+
+}
+
+.bottom-container {
+
+}
+
+.About-button {
+  position: absolute;
+  top: 50px;
+  right: 250px;
+  margin: 0 10;
+  background-color: #9ddfd3;
+  transition: background-color .5s;
+}
+
+.Contact-button {
+  position: absolute;
+  top: 50px;
+  right: 150px;
+  background-color: #9ddfd3;
+  transition: background-color .5s;
+}
+
+a {
+  color: #11999E;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAf6f6;
+}
+
+.credintial-link {
+  color: #11999E;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: underline;
+  margin: auto;
+}
+
+.credintial-link:hover {
+  color: #19456b;
+}
+
+.astrodivider {
+  margin:64px auto;
+  width:400px;
+  max-width: 100%;
+  position:relative;
+}
+
+.astrodividermask {
+    overflow:hidden; height:20px;
+}
+
+.astrodividermask:after {
+      content:'';
+      display:block; margin:-25px auto 0;
+      width:100%; height:25px;
+        border-radius:125px / 12px;
+       box-shadow:0 0 8px #049372;
+}
+.astrodivider span {
+    width:50px; height:50px;
+    position:absolute;
+    bottom:100%; margin-bottom:-25px;
+    left:50%; margin-left:-25px;
+    border-radius:100%;
+   box-shadow:0 2px 4px #4fb39c;
+    background:#fff;
+}
+.astrodivider i {
+    position:absolute;
+    top:4px; bottom:4px;
+    left:4px; right:4px;
+    border-radius:100%;
+    border:1px dashed #68beaa;
+    text-align:center;
+    line-height:40px;
+    font-style:normal;
+     color:#049372;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 7%;
+}

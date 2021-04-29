@@ -1,0 +1,205 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  color: #4b778d;
+  font-size: 5.625em;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #4b778d;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #126e82;
+}
+
+a {
+  color: #11999E;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAf6f6;
+}
+
+.introduction {
+  position: absolute;
+  left: 355px;
+  top: 5px;
+}
+
+.copyright {
+  color: #EAf6f6;
+  font-size: 1rem;
+  padding: 20px 0;
+}
+
+.top-container {
+  background-color: #9ddfd3;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.middle-container {
+  background-color: #dbf6e9;
+}
+
+.bottom-container {
+  background-color: #9ddfd3;
+  padding: 25px 0 10px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 150px;
+  top: 50px;
+}
+
+.coding-gif {
+  float: left;
+  margin-right: 30px;
+}
+
+.construction-image {
+  float: right;
+  margin-left: 30px;
+}
+
+.profile {
+  width: 40%;
+  margin: auto;
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-1 {
+  text-align: left;
+  margin-right: 10px;
+}
+
+.skill-2 {
+  text-align: left;
+  margin-right: auto;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.About-button {
+  position: absolute;
+  top: 50px;
+  right: 250px;
+  margin: 0px 10;
+  background-color: #9ddfd3;
+  transition: background-color .5s;
+}
+
+.Contact-button {
+  position: absolute;
+  top: 50px;
+  right: 150px;
+  background-color: #9ddfd3;
+  transition: background-color .5s;
+}
+
+.astrodivider {
+  margin:64px auto;
+  width:400px;
+  max-width: 100%;
+  position:relative;
+}
+
+.astrodividermask {
+    overflow:hidden; height:20px;
+}
+
+.astrodividermask:after {
+      content:'';
+      display:block; margin:-25px auto 0;
+      width:100%; height:25px;
+        border-radius:125px / 12px;
+       box-shadow:0 0 8px #049372;
+}
+.astrodivider span {
+    width:50px; height:50px;
+    position:absolute;
+    bottom:100%; margin-bottom:-25px;
+    left:50%; margin-left:-25px;
+    border-radius:100%;
+   box-shadow:0 2px 4px #4fb39c;
+    background:#fff;
+}
+.astrodivider i {
+    position:absolute;
+    top:4px; bottom:4px;
+    left:4px; right:4px;
+    border-radius:100%;
+    border:1px dashed #68beaa;
+    text-align:center;
+    line-height:40px;
+    font-style:normal;
+     color:#049372;
+}
+
+.btn {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: "Montserrat", sans-serif;
+   font-size: 16px;
+   font-weight: 100;
+   padding: 10px 20px 10px 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #303ECB;
+   background-image: -webkit-linear-gradient(top, #303ECB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #303ECB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #303ECB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #303ECB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #303ECB, #2BC4AD);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
